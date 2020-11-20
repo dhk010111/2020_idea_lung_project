@@ -15,9 +15,12 @@ Lung segmentation train project
  (프로젝트에서는 MaxPooling2D 이용) \
  Decoder : 압축된 정보로부터 차원 확장을 통해 원하는 정보로 복원하는 과정 \
  (프로젝트에서는 UpSampling2D 이용)
- 
+  - Output 예시 \
+  
+ ![image](https://user-images.githubusercontent.com/65123546/99789494-05dd9b80-2b66-11eb-8009-2eec44a4fe1d.png)\
  Output은 Segmentation이 된 lung mask가 출력된다. (폐:1(white) 나머지:0(black))
- 
+
+
  
  
  
